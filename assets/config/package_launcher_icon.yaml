@@ -4,24 +4,24 @@ flutter_launcher_icons:
 
   android: "launcher_icon"
   min_sdk_android: 21 # android min sdk min:16, default 21
-  adaptive_icon_background: "#FADDC6"
-  adaptive_icon_foreground: "assets/icon/Converter.lab_logo.png"
+  adaptive_icon_background: "#EFE2FF"
+  adaptive_icon_foreground: "assets/icon/Converter.lab_logo_fg.png"
   adaptive_icon_foreground_inset: 26
-  adaptive_icon_monochrome: "assets/icon/Converter.lab_logo_monochrome.png"
+  adaptive_icon_monochrome: "assets/icon/Converter.lab_logo_mono.png"
 
   ios: true
-  image_path_ios: "assets/icon/apple/Converter.lab_logo_bg_apple.png"
+  image_path_ios: "assets/icon/Converter.lab_logo_ios.png"
   remove_alpha_ios: true
-  image_path_ios_dark_transparent: "assets/icon/apple/Converter.lab_logo_bg_dark_transparence.png"
-  image_path_ios_tinted_grayscale: "assets/icon/apple/Converter.lab_logo_light_transparence.png"
+  image_path_ios_dark_transparent: "assets/icon/Converter.lab_logo_ios_dark_transparence.png"
+  image_path_ios_tinted_grayscale: "assets/icon/Converter.lab_logo_ios_light_transparence.png"
   desaturate_tinted_to_grayscale_ios: true
-  background_color_ios: "#FADDC6"
+  background_color_ios: "#EFE2FF"
 
   web:
     generate: true
-    image_path: "assets/icon/Converter.lab_logo.png"
-    background_color: "#FADDC6"
-    theme_color: "#FADDC6"
+    image_path: "assets/icon/Converter.lab_logo_fg.png"
+    background_color: "#EFE2FF"
+    theme_color: "#673AB7"
 
   windows:
     generate: true
@@ -29,5 +29,5 @@ flutter_launcher_icons:
     icon_size: 256 # min:48, max:256, default: 48
 
   macos:
-    generate: false
-    image_path: "assets/icon/apple/Converter.lab_logo_bg_apple.png"
+    generate: true
+    image_path: "assets/icon/Converter.lab_logo_macos.png"
