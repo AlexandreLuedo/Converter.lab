@@ -1,0 +1,18 @@
+#+title: Converter.lab
+
+A small Material 3 design app who aimed firstly to convert my molds & frames diameters into a targeted weight. And secondly, to train me with a very small project, to write cleaner code & app architecture. It's heavely inspired by a first big project in dart.
+
+#+begin_quote
+!NOTE
+This app is written for a French UI usage, not because I use only french on my phone. But to share with my friends & coworkers.
+#+end_quote
+** Features
+- Enter your measurements and get real-time results
+- Copy easely by pressing a button or select the total weight
+- Share with your friends your result with precisions
+- Clear button
+- Fully offline
+** Architecture
+- Riverpod to handle data changes (I use it in order to train me)
+- Go_router for navigating trough UI
+- Share_plus for sharing content
