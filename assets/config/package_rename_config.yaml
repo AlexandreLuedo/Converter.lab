@@ -1,0 +1,31 @@
+package_rename_config:
+  android:
+    app_name: "Converter.lab" # Display name
+    package_name: "app.hk.converter" # Package name
+    lang: "kotlin" # Optional: "kotlin" (default) or "java"
+
+  ios:
+    app_name: "Converter.lab" # Display name
+    bundle_name: "app.hk.converter" # Bundle name
+    package_name: "app.hk.converter" # Product Bundle Identifier
+
+  linux:
+    app_name: "Converter.lab" # Window title
+    package_name: "app.hk.converter" # Application ID
+    exe_name: "converter_lab" # Executable name (binary)
+
+  macos:
+    app_name: "Converter.lab" # Product name
+    package_name: "app.hk.converter" # Product Bundle Identifier
+    copyright_notice: "AGPL-3.0-or-later" # Copyright notice
+
+  web:
+    app_name: "Converter.lab" # App title & PWA name
+    short_app_name: "Converter.lab" # PWA short name (defaults to app_name)
+    description: "Le convertisseur de cadres et moules multiplateforme !" # Web app description
+
+  windows:
+    app_name: "Converter.lab" # Window title & Software name
+    organization: "Hadrien KLOTZ" # Organization/Company name
+    copyright_notice: "AGPL-3.0-or-later" # Legal copyright
+    exe_name: "converter_lab" # Executable name (binary)
