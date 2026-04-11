@@ -50,9 +50,10 @@ flutter run
 flutter run -d <device>
 #+end_src
 **** Build (Release mode)
-#+begin_src bash
-
-#+end_src
+- Android : ~flutter build apk~
+- iOS : ~flutter build ios~
+- Web : ~flutter build web~
+- macOS : ~flutter build macos~
 * AI usages
 ** Made myself
 README, Interfaces, backend, and theming.
