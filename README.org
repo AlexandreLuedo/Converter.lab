@@ -17,11 +17,11 @@ This app is written for a French UI usage, not because I use only french on my p
 - Go_router for navigating trough UI
 - Share_plus for sharing content
 ** Download
-#+begin_src md
+#+begin_export html
 <p align='center'>
 <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/AlexandreLuedo/Converter.lab">
   <img src='assets/images/badge-obtainium.png'alt="Get it on Obtainium" height="60" /></a>
-#+end_src
+#+end_export
 ** Build
 *** Prerequirement
 **** [[https://docs.flutter.dev/install/quick][Get Flutter installed stable version]]
