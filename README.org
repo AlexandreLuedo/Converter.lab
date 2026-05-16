@@ -16,6 +16,12 @@ This app is written for a French UI usage, not because I use only french on my p
 - Riverpod to handle data changes (I use it in order to train me)
 - Go_router for navigating trough UI
 - Share_plus for sharing content
+** Download
+#+begin_src md
+<p align='center'>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/AlexandreLuedo/Converter.lab">
+  <img src='assets/images/badge-obtainium.png'alt="Get it on Obtainium" height="60" /></a>
+#+end_src
 ** Build
 *** Prerequirement
 **** [[https://docs.flutter.dev/install/quick][Get Flutter installed stable version]]
